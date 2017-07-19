@@ -1,0 +1,1 @@
+function longest(string) {return Math.max.apply(null, Array.from(string).reduce().filter().map(n => n.length))}
